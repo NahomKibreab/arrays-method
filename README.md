@@ -1,3 +1,3 @@
-# arrays-method
+# arrays-methods
 
-This class is all about arrays method in Javascript
+This class is all about array methods in Javascript
