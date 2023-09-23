@@ -12,3 +12,11 @@ console.log("mobile: ", mobile);
 console.log("array[0]", array[0]);
 
 console.log("rest: ", rest);
+
+// Array spread operator for copying an array
+
+const arrayTwo = ["Hi", "there", "!"];
+const newCopyArray = [...arrayTwo];
+
+console.log("arrayTwo", arrayTwo);
+console.log("newCopyArray", newCopyArray);

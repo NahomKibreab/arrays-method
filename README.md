@@ -46,4 +46,16 @@ For example:
 
 ```javascript
 const array = ["banana", "computer", "iphone"];
+const [fruit, , mobile, ...rest] = array;
+```
+
+## Array Spread Operator
+
+- This operator (...something) is another way of copy an array to new array object
+
+```javascript
+const array = ["Hi", "there", "!"];
+const newCopyArray = [...array];
+
+console.log(newCopyArray);
 ```
