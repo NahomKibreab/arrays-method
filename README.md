@@ -37,3 +37,13 @@ This class is all about array methods in Javascript
 ## [Array.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 
 - This method determines whether an array contains a certain value among its entries.
+
+## Array Desctructuring
+
+- This method is used to return specific properties of an array.
+
+For example:
+
+```javascript
+const array = ["banana", "computer", "iphone"];
+```

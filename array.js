@@ -1,12 +1,14 @@
-const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const b = ["Hello", "World", 1, 2];
+const array = ["banana", "computer", "iphone", "laptop", "macbook"];
 
-const c = a.join();
+console.log(array);
 
-const d = a.join("*_*");
+// Arraty destructuring
+const [fruit, , mobile, ...rest] = array;
 
-console.log(a);
+console.log("fruit: ", fruit);
+// console.log("pc: ", pc);
+console.log("mobile: ", mobile);
 
-console.log(c);
+console.log("array[0]", array[0]);
 
-console.log(d);
+console.log("rest: ", rest);
