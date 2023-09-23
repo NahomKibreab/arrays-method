@@ -33,3 +33,7 @@ This class is all about array methods in Javascript
 ## Array.join()
 
 - This method is used to join all elements of an array into a string.
+
+## [Array.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+
+- This method determines whether an array contains a certain value among its entries.
