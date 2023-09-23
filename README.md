@@ -2,7 +2,7 @@
 
 This class is all about array methods in Javascript
 
-## Array.push()
+## [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 - This method is used to add an element to the end of an array.
 
