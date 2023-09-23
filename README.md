@@ -6,7 +6,7 @@ This class is all about array methods in Javascript
 
 - This method is used to add an element to the end of an array.
 
-## Array.pop()
+## [Array.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
 - This method is used to remove the last element of an array.
 
