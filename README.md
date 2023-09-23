@@ -59,3 +59,7 @@ const newCopyArray = [...array];
 
 console.log(newCopyArray);
 ```
+
+## [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+- This creates a new array populated with the results of calling a provided function on every element in the calling array.
