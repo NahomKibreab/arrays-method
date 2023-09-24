@@ -63,3 +63,7 @@ console.log(newCopyArray);
 ## [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 - This creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+## [Array.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
+- This method sorts the elements of an array in place and returns the sorted array.

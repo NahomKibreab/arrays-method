@@ -75,3 +75,5 @@ console.log("listOfString", listOfString);
 const tilnetString = `Nahom ${2 * 2} ${listOfNumberAndString[2]}`;
 
 console.log("tilnetString", tilnetString);
+
+// Array.sort()
