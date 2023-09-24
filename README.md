@@ -67,3 +67,6 @@ console.log(newCopyArray);
 ## [Array.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 - This method sorts the elements of an array in place and returns the sorted array.
+
+- <img width="1723" alt="image" src="https://github.com/NahomKibreab/arrays-method/assets/14014497/0ed4cc24-0c57-4f99-8f36-785dc4fbb866">
+
