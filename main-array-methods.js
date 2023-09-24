@@ -47,3 +47,31 @@ const newArrayFromObject = array.map((obj) => {
 
 console.log("array", array);
 console.log("newArrayFromObject", newArrayFromObject);
+
+// Array.filter()
+
+/*
+Special character and symbols
+
+"" // string
+'' // string
+`` // string
+[] // array
+{} // object
+name () => {} // arrow function 
+function name () {} // declaration function
+name() // call function
+*/
+
+const listOfNumberAndString = ["Nahom", "Salih", "Selam", 12, 13, 14];
+
+const listOfString = listOfNumberAndString.filter(
+  (element) => typeof element === "string"
+); // ["Nahom", "Salih", "Selam"]
+
+console.log("listOfString", listOfString);
+
+// Special String Template Literal
+const tilnetString = `Nahom ${2 * 2} ${listOfNumberAndString[2]}`;
+
+console.log("tilnetString", tilnetString);
