@@ -1,3 +1,6 @@
+const fetch = require("node-fetch");
+// import fetch from "node-fetch";
+
 function resolveAfter2Seconds() {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -14,4 +17,14 @@ async function asyncCall() {
   // Expected output: "resolved"
 }
 
-asyncCall();
+async function testingApiCall() {
+  const result = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+    .then((response) => response.json())
+    .then((json) => json);
+
+  console.log("result", result);
+}
+
+// asyncCall();
+
+testingApiCall();
